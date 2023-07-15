@@ -1,0 +1,6 @@
+class Task:
+    SUCCESS = "SUCCESS"
+    PENDING = "PENDING"
+    STARTED = "STARTED"
+    IN_PROGRESS = "IN PROGRESS"
+    FAILED = "FAILED"
