@@ -3,7 +3,7 @@ from flask_cors import CORS
 
 from database import DataBase
 from task import Task
-from run import start_scraper
+from scraper.run_scraper import run_scraper
 
 from multiprocessing import Pool
 import json
@@ -16,7 +16,7 @@ CORS(app)
 db = DataBase()
 
 
-@app.route('/', methods=['GET'])
+@app.route('/index', methods=['GET'])
 def index():
     return jsonify({"message": "Welcome to the API"}), 200
 
@@ -32,7 +32,7 @@ def create_task():
     key = db.create_task(session_id)
 
     pool = Pool(1)
-    pool.apply_async(start_scraper, args=(session_id,))
+    pool.apply_async(run_scraper, args=(session_id,))
 
     db.update_task_status(session_id, Task.STARTED)
 
