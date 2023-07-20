@@ -130,4 +130,4 @@ def get_task_data(task_id):
 os.mkdir("Logs") if not os.path.exists("Logs") else None
 
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+    app.run(port=2000, debug=True)
