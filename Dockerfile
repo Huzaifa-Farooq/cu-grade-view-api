@@ -13,8 +13,8 @@ COPY . .
 
 ENV FLASK_APP=app.py
 
-# Expose port 5000
-EXPOSE 5000
+# Expose port 2000
+EXPOSE 2000
 
 # Run the application
 CMD ["python", "app.py"]
