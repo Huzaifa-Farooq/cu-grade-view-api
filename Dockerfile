@@ -20,4 +20,4 @@ ENV FLASK_RUN_PORT=2000
 EXPOSE 2000
 
 # Run the application
-CMD ["flask", "run"]
+CMD ["flask", "run", "--host=0.0.0.0"]
