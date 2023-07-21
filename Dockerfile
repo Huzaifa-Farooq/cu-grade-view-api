@@ -12,7 +12,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 ENV FLASK_APP=app.py
-ENV FLASK_RUN_PORT=2000
 
 # Expose port 2000
 EXPOSE 2000
