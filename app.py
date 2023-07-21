@@ -13,6 +13,11 @@ import os
 
 app = Flask(__name__)
 CORS(app)
+
+web_app_url = os.environ.get('WEB_APP_URL')
+app.config["CORS_ORIGINS"] = []
+
+
 db = DataBase()
 
 
@@ -130,4 +135,4 @@ def get_task_data(task_id):
 os.mkdir("Logs") if not os.path.exists("Logs") else None
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0")
