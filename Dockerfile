@@ -17,4 +17,4 @@ ENV FLASK_APP=app.py
 EXPOSE 2000
 
 # Run the application
-CMD ["flask", "run", "-host=0.0.0.0"]
+CMD ["flask", "run", "-host=0.0.0.0", "-p", "2000"]
