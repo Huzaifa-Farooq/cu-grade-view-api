@@ -18,8 +18,6 @@ db = DataBase()
 
 @app.route('/index', methods=['GET'])
 def index():
-    print(request.remote_addr)
-    print("fsdfsdfsdf\n\n\n\n")
     return jsonify({"message": "Welcome to the API"}), 200
 
 
