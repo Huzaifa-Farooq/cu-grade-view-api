@@ -16,6 +16,7 @@ from task import Task
 from portal.items import (
     StudentProfileItem, 
     CourseScoreItem, 
+    AttendanceItem,
     ErrorItem
     )
 
@@ -41,7 +42,7 @@ class PortalPipeline:
             return {}
         elif isinstance(item, StudentProfileItem):
             self.db.add_student_profile_data(self.task_id, item)
-        elif isinstance(item, CourseScoreItem):
+        elif isinstance(item, CourseScoreItem) or isinstance(item, AttendanceItem):
             self.items.append(item)
             if len(self.items) >= 100:
                 self.add_data_to_db()
@@ -56,5 +57,8 @@ class PortalPipeline:
 
     def add_data_to_db(self):
         self.db.create_task(self.task_id)
-        self.db.add_course_score_data(self.task_id, self.items)
+        course_score_items = [i for i in self.items if isinstance(i, CourseScoreItem)]
+        self.db.add_course_score_data(self.task_id, course_score_items)
+        attendance_items = [i for i in self.items if isinstance(i, AttendanceItem)]
+        self.db.add_attendance_data(self.task_id, attendance_items)
         self.items = []

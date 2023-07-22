@@ -5,6 +5,7 @@ import re
 from portal.items import (
     StudentProfileItem, 
     CourseScoreItem, 
+    AttendanceItem,
     ErrorItem
     )
 
@@ -14,22 +15,16 @@ class ComsatsEduPkSpider(scrapy.Spider):
     allowed_domains = ["comsats.edu.pk"]
     start_urls = ["http://comsats.edu.pk/"]
 
-    headers = {
-        'authority': 'atk-cms.comsats.edu.pk:8090',
-        'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-        'accept-language': 'en-US,en;q=0.9',
-        'cache-control': 'max-age=0',
-        'referer': 'https://atk-cms.comsats.edu.pk:8090/Announcements',
-        'sec-ch-ua': '"Microsoft Edge";v="113", "Chromium";v="113", "Not-A.Brand";v="24"',
-        'sec-ch-ua-mobile': '?0',
-        'sec-ch-ua-platform': '"Windows"',
-        'sec-fetch-dest': 'document',
-        'sec-fetch-mode': 'navigate',
-        'sec-fetch-site': 'same-origin',
-        'sec-fetch-user': '?1',
-        'upgrade-insecure-requests': '1',
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50',
-    }
+    custom_settings = dict(
+        DEFAULT_REQUEST_HEADERS={
+            'authority': 'atk-cms.comsats.edu.pk:8090',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'accept-language': 'en-US,en;q=0.9',
+            'cache-control': 'max-age=0',
+            'referer': 'https://atk-cms.comsats.edu.pk:8090/Announcements',
+            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50',
+        }
+    )
 
     courses = None
 
@@ -38,32 +33,25 @@ class ComsatsEduPkSpider(scrapy.Spider):
         self.cookies = {"ASP.NET_SessionId": session_id}
         yield scrapy.Request(
             url="https://atk-cms.comsats.edu.pk:8090/",
-            cookies=self.cookies,
             callback=self.parse,
-            headers=self.headers
+            cookies=self.cookies
         )
     
     def parse(self, response):
         if "COURSEREGISTRATION" not in response.url:
-            yield ErrorItem(
-                error="Invalid Session ID"
-            )
+            yield ErrorItem(error="Invalid Session ID")
             return
 
         # for course scores
         yield scrapy.Request(
             url="https://atk-cms.comsats.edu.pk:8090/Courses/Index",
-            cookies=self.cookies,
             callback=self.parse_index,
-            headers=self.headers
         )
 
         # for student profile
         yield scrapy.Request(
             url="https://atk-cms.comsats.edu.pk:8090/Profile/Index",
-            cookies=self.cookies,
             callback=self.parse_profile,
-            headers=self.headers
         )
 
     def parse_profile(self, response):
@@ -88,8 +76,6 @@ class ComsatsEduPkSpider(scrapy.Spider):
             return scrapy.Request(
                 url="https://atk-cms.comsats.edu.pk:8090" + url,
                 callback=self.parse_course,
-                headers=self.headers,
-                cookies=self.cookies,
                 meta={
                     "course_id": course_id,
                     "course_name": course_name,
@@ -104,22 +90,35 @@ class ComsatsEduPkSpider(scrapy.Spider):
         self.courses = response.css("#RegisteredCourses table tbody > tr")
         yield self.get_course_request()
 
-        # attendance
-        # for course in self.courses:
-        #     course_id = course.css("td:nth-child(1)::text").get().strip()
-        #     if course.css(".only_class_attendance"):
-        #         class_attendance = course.css("div.only_class_attendance").attrib['aria-valuenow']
-        #         lab_attendance = 0
-
     def parse_course(self, response):
+        # marks summary request
         yield scrapy.Request(
             url=response.urljoin("/MarksSummary/Index"),
             callback=self.parse_marks,
-            headers=self.headers,
-            cookies=self.cookies,
             meta=response.meta,
             dont_filter=True,
         )
+
+    def parse_attendance(self, response):
+        # class and lab attendance
+        for _id in ["Class", "Lab"]:
+            for row in response.css(f"#{_id} .table-responsive table tbody > tr"):
+                topic = row.css("td:nth-child(1)::text").get().strip()
+                status = row.css("td:nth-child(2)::text").get().strip()
+                attended = "present" in status.lower()
+                start_time = row.css("td:nth-child(3)::text").get().strip()
+                end_time = row.css("td:nth-child(4)::text").get().strip()
+                yield AttendanceItem(
+                    course_id=response.meta["course_id"],
+                    attendance_type=_id.lower(),
+                    topic=topic,
+                    attended=attended,
+                    start_time=start_time,
+                    end_time=end_time,
+                )
+
+        if self.courses:
+            yield self.get_course_request()
     
     def parse_marks(self, response):
         quizes_elems = response.css("div.quiz_listing")
@@ -145,6 +144,11 @@ class ComsatsEduPkSpider(scrapy.Spider):
                     datetime=datetime
                 )
 
-        if self.courses:
-            yield self.get_course_request()
+        # attendance request
+        yield scrapy.Request(
+            url="https://atk-cms.comsats.edu.pk:8090/Attendance/Index",
+            callback=self.parse_attendance,
+            meta=response.meta,
+            dont_filter=True,
+        )
   

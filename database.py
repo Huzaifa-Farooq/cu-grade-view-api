@@ -1,18 +1,33 @@
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String, DateTime, ForeignKey, Boolean
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy import select
+
+from sqlalchemy.orm import (
+    sessionmaker, 
+    validates,
+    relationship,
+    backref
+    )
 
 import json
 import secrets
 import random
+import os
+import dateutil.parser as date_parser
+from datetime import datetime
 
 from task import Task
 
 
 DB_URI = "sqlite:///tasks_db____.db"
+# DB_URI = os.environ['DB_URI']
 
 Base = declarative_base()
+
+
+def convert_str_to_datetime(date_str):
+    return date_parser.parse(date_str)
 
 
 class Task(Base):
@@ -23,6 +38,12 @@ class Task(Base):
     key = Column(String, unique=True)
     status = Column(String, default=Task.PENDING)
     message = Column(String)
+
+    # Lazy=True -> https://docs.sqlalchemy.org/en/20/orm/relationship_api.html#sqlalchemy.orm.relationship.params.lazy
+    # cascade="all, delete-orphan" -> delete all related data when task is deleted
+    course_score = relationship("CourseScore", backref="task", cascade="all,delete", lazy=True)
+    student_profile = relationship("StudentProfile", backref="task", cascade="all,delete", lazy=True, uselist=False)
+    attendance = relationship("Attendance", backref="task", cascade="all,delete", lazy=True)
 
     def to_dict(self):
         return {
@@ -39,7 +60,7 @@ class CourseScore(Base):
     __tablename__ = 'course_score'
 
     id = Column(Integer, primary_key=True)
-    task_id = Column(String)
+    task_id = Column(String, ForeignKey('task.task_id'), nullable=False)
     course_id = Column(String)
     course_name = Column(String)
     credit_hours = Column(String)
@@ -48,11 +69,10 @@ class CourseScore(Base):
     title = Column(String)
     marks = Column(String)
     total_marks = Column(String)
-    datetime = Column(String)
+    datetime = Column(DateTime)
 
     def to_dict(self):
         return {
-            'task_id': self.task_id,
             'course_id': self.course_id,
             'course_name': self.course_name,
             'credit_hours': self.credit_hours,
@@ -61,15 +81,22 @@ class CourseScore(Base):
             'title': self.title,
             'marks': self.marks,
             'total_marks': self.total_marks,
-            'datetime': self.datetime
+            'datetime': datetime.strftime(self.datetime, "%d-%m-%Y")
         }
+
+    @validates('datetime')
+    def validate_datetime(self, key, datetime):
+        return convert_str_to_datetime(datetime)
+
+    def __repr__(self):
+        return '<CourseScore %r>' % self.course_id
 
 
 class StudentProfile(Base):
     __tablename__ = 'student_profile'
 
     id = Column(Integer, primary_key=True)
-    task_id = Column(String)
+    task_id = Column(String, ForeignKey('task.task_id'), nullable=False)
     name = Column(String)
     registration_number = Column(String)
 
@@ -78,6 +105,43 @@ class StudentProfile(Base):
             'studentName': self.name,
             'registrationNumber': self.registration_number
         }
+
+    def __repr__(self):
+        return '<StudentProfile %r>' % self.name
+
+
+class Attendance(Base):
+    __tablename__ = 'attendance'
+
+    id = Column(Integer, primary_key=True)
+    task_id = Column(String, ForeignKey('task.task_id'), nullable=False)
+    course_id = Column(String)
+    attendance_type = Column(String)
+    topic = Column(String)
+    attended = Column(Boolean)
+    start_time = Column(DateTime)
+    end_time = Column(DateTime)
+
+    @validates('start_time')
+    def validate_start_time(self, key, start_time):
+        return convert_str_to_datetime(start_time)
+
+    @validates('end_time')
+    def validate_end_time(self, key, end_time):
+        return convert_str_to_datetime(end_time)
+
+    def to_dict(self):
+        return {
+            'course_id': self.course_id,
+            'attendance_type': self.attendance_type,
+            'topic': self.topic,
+            'attended': self.attended,
+            'start_time': datetime.strftime(self.start_time, "%d-%m-%Y %I:%M %p"),
+            'end_time': datetime.strftime(self.end_time, "%d-%m-%Y %I:%M %p")
+        }
+
+    def __repr__(self):
+        return '<Attendance %r>' % self.course_id
 
 
 class DataBase:
@@ -102,25 +166,13 @@ class DataBase:
         self.session.commit()
         return key
 
-    def clean_task_data(self, task_id):
-        self.session.query(CourseScore).filter_by(task_id=task_id).delete()
-        self.session.query(StudentProfile).filter_by(task_id=task_id).delete()
-        self.session.commit()
-
     def delete_task(self, task_id):
-        self.clean_task_data(task_id)
-        self.session.query(Task).filter_by(task_id=task_id).delete()
-        self.session.commit()
+        if task := self.session.scalars(select(Task).filter_by(task_id=task_id)).first():
+            self.session.delete(task)
+            self.session.commit()
 
     def get_task(self, task_id):
         return self.session.query(Task).filter_by(task_id=task_id).first()
-
-    def get_task_course_score_data(self, task_id):
-        return self.session.query(CourseScore).filter_by(task_id=task_id)
-
-    def get_student_profile_data(self, task_id):
-        data = self.session.query(StudentProfile).filter_by(task_id=task_id).first()
-        return data.to_dict() if data else None
 
     def update_task_status(self, task_id, status, message=''):
         task = self.session.query(Task).filter_by(task_id=task_id).first()
@@ -133,6 +185,13 @@ class DataBase:
         for item in data:
             score_data = CourseScore(task_id=task_id, **item)
             self.session.add(score_data)
+        self.session.commit()
+
+    def add_attendance_data(self, task_id, data):
+        data = [data] if not isinstance(data, list) else data
+        for item in data:
+            attendance = Attendance(task_id=task_id, **item)
+            self.session.add(attendance)
         self.session.commit()
 
     def add_student_profile_data(self, task_id, data):

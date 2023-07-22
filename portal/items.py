@@ -24,6 +24,15 @@ class StudentProfileItem(scrapy.Item):
     registration_number = scrapy.Field()
 
 
+class AttendanceItem(scrapy.Item):
+    course_id = scrapy.Field()
+    attendance_type = scrapy.Field()
+    topic = scrapy.Field()
+    attended = scrapy.Field()
+    start_time = scrapy.Field()
+    end_time = scrapy.Field()
+
+
 class ErrorItem(scrapy.Item):
     url = scrapy.Field()
     error = scrapy.Field()
