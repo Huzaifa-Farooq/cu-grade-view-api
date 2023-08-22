@@ -1,0 +1,2284 @@
+{
+    "profileData": {
+        "studentName": "Huzaifa Farooq",
+        "registrationNumber": "CIIT/SP23-BSE-005/ATK"
+    },
+    "courseIds": [
+        "PHY121",
+        "HUM100",
+        "CSC101",
+        "HUM110",
+        "HUM111"
+    ],
+    "columns": [
+        "section_title",
+        "title",
+        "marks",
+        "total_marks",
+        "datetime"
+    ],
+    "courseInfoColumns": [
+        "course_id",
+        "course_name",
+        "credit_hours",
+        "teacher"
+    ],
+    "columnsTitles": {
+        "course_id": "Course ID",
+        "course_name": "Course Name",
+        "credit_hours": "Credit Hours",
+        "teacher": "Teacher",
+        "section_title": "Section",
+        "title": "Title",
+        "marks": "Marks",
+        "total_marks": "Total Marks",
+        "datetime": "Date"
+    },
+    "coursesData": {
+        "CSC101": {
+            "courseScore": {
+                "Assignments": {
+                    "totalMarks": 45.0,
+                    "marks": 43.0,
+                    "percentage": 95.56,
+                    "data": [
+                        {
+                            "course_id": "CSC101",
+                            "course_name": "Introduction to ICT",
+                            "credit_hours": "3",
+                            "teacher": "Tahir Ahmad",
+                            "section_title": "Assignments",
+                            "title": "Assign1",
+                            "marks": 13.5,
+                            "total_marks": 15.0,
+                            "datetime": "22-03-2023"
+                        },
+                        {
+                            "course_id": "CSC101",
+                            "course_name": "Introduction to ICT",
+                            "credit_hours": "3",
+                            "teacher": "Tahir Ahmad",
+                            "section_title": "Assignments",
+                            "title": "Assign2",
+                            "marks": 9.5,
+                            "total_marks": 10.0,
+                            "datetime": "03-04-2023"
+                        },
+                        {
+                            "course_id": "CSC101",
+                            "course_name": "Introduction to ICT",
+                            "credit_hours": "3",
+                            "teacher": "Tahir Ahmad",
+                            "section_title": "Assignments",
+                            "title": "Assign3",
+                            "marks": 10.0,
+                            "total_marks": 10.0,
+                            "datetime": "05-06-2023"
+                        },
+                        {
+                            "course_id": "CSC101",
+                            "course_name": "Introduction to ICT",
+                            "credit_hours": "3",
+                            "teacher": "Tahir Ahmad",
+                            "section_title": "Assignments",
+                            "title": "Assign4",
+                            "marks": 10.0,
+                            "total_marks": 10.0,
+                            "datetime": "08-06-2023"
+                        }
+                    ]
+                },
+                "Final": {
+                    "totalMarks": 50.0,
+                    "marks": 43.0,
+                    "percentage": 86.0,
+                    "data": [
+                        {
+                            "course_id": "CSC101",
+                            "course_name": "Introduction to ICT",
+                            "credit_hours": "3",
+                            "teacher": "Tahir Ahmad",
+                            "section_title": "Final",
+                            "title": "Final",
+                            "marks": 43.0,
+                            "total_marks": 50.0,
+                            "datetime": "19-06-2023"
+                        }
+                    ]
+                },
+                "Lab Assignments": {
+                    "totalMarks": 45.0,
+                    "marks": 43.5,
+                    "percentage": 96.67,
+                    "data": [
+                        {
+                            "course_id": "CSC101",
+                            "course_name": "Introduction to ICT",
+                            "credit_hours": "3",
+                            "teacher": "Tahir Ahmad",
+                            "section_title": "Lab Assignments",
+                            "title": "LabAssign1",
+                            "marks": 10.0,
+                            "total_marks": 10.0,
+                            "datetime": "09-03-2023"
+                        },
+                        {
+                            "course_id": "CSC101",
+                            "course_name": "Introduction to ICT",
+                            "credit_hours": "3",
+                            "teacher": "Tahir Ahmad",
+                            "section_title": "Lab Assignments",
+                            "title": "LabAssign2",
+                            "marks": 9.5,
+                            "total_marks": 10.0,
+                            "datetime": "28-03-2023"
+                        },
+                        {
+                            "course_id": "CSC101",
+                            "course_name": "Introduction to ICT",
+                            "credit_hours": "3",
+                            "teacher": "Tahir Ahmad",
+                            "section_title": "Lab Assignments",
+                            "title": "LabAssign3",
+                            "marks": 9.5,
+                            "total_marks": 10.0,
+                            "datetime": "08-06-2023"
+                        },
+                        {
+                            "course_id": "CSC101",
+                            "course_name": "Introduction to ICT",
+                            "credit_hours": "3",
+                            "teacher": "Tahir Ahmad",
+                            "section_title": "Lab Assignments",
+                            "title": "LabAssign4",
+                            "marks": 14.5,
+                            "total_marks": 15.0,
+                            "datetime": "06-06-2023"
+                        }
+                    ]
+                },
+                "Lab Midterm Marks": {
+                    "totalMarks": 25.0,
+                    "marks": 25.0,
+                    "percentage": 100.0,
+                    "data": [
+                        {
+                            "course_id": "CSC101",
+                            "course_name": "Introduction to ICT",
+                            "credit_hours": "3",
+                            "teacher": "Tahir Ahmad",
+                            "section_title": "Lab Midterm Marks",
+                            "title": "Midtermlab",
+                            "marks": 25.0,
+                            "total_marks": 25.0,
+                            "datetime": "18-04-2023"
+                        }
+                    ]
+                },
+                "Midterm Marks": {
+                    "totalMarks": 25.0,
+                    "marks": 22.0,
+                    "percentage": 88.0,
+                    "data": [
+                        {
+                            "course_id": "CSC101",
+                            "course_name": "Introduction to ICT",
+                            "credit_hours": "3",
+                            "teacher": "Tahir Ahmad",
+                            "section_title": "Midterm Marks",
+                            "title": "MidTermMarks",
+                            "marks": 22.0,
+                            "total_marks": 25.0,
+                            "datetime": "09-05-2023"
+                        }
+                    ]
+                },
+                "Quizzes": {
+                    "totalMarks": 40.0,
+                    "marks": 36.0,
+                    "percentage": 90.0,
+                    "data": [
+                        {
+                            "course_id": "CSC101",
+                            "course_name": "Introduction to ICT",
+                            "credit_hours": "3",
+                            "teacher": "Tahir Ahmad",
+                            "section_title": "Quizzes",
+                            "title": "Quiz1",
+                            "marks": 8.0,
+                            "total_marks": 10.0,
+                            "datetime": "20-03-2023"
+                        },
+                        {
+                            "course_id": "CSC101",
+                            "course_name": "Introduction to ICT",
+                            "credit_hours": "3",
+                            "teacher": "Tahir Ahmad",
+                            "section_title": "Quizzes",
+                            "title": "Quiz2",
+                            "marks": 9.0,
+                            "total_marks": 10.0,
+                            "datetime": "05-04-2023"
+                        },
+                        {
+                            "course_id": "CSC101",
+                            "course_name": "Introduction to ICT",
+                            "credit_hours": "3",
+                            "teacher": "Tahir Ahmad",
+                            "section_title": "Quizzes",
+                            "title": "Quiz3",
+                            "marks": 10.0,
+                            "total_marks": 10.0,
+                            "datetime": "24-05-2023"
+                        },
+                        {
+                            "course_id": "CSC101",
+                            "course_name": "Introduction to ICT",
+                            "credit_hours": "3",
+                            "teacher": "Tahir Ahmad",
+                            "section_title": "Quizzes",
+                            "title": "Quiz4",
+                            "marks": 9.0,
+                            "total_marks": 10.0,
+                            "datetime": "09-06-2023"
+                        }
+                    ]
+                }
+            },
+            "attendance": {
+                "attendanceData": [
+                    {
+                        "attendanceType": "class",
+                        "attendance": [
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Basic Definition of Information Technology (IT), Computer Technology & Communications Technology, Role of IT in Society, Computing Models: Turing Model, Von Neumann Model; Input Devices: Keyboard, Pointing & Touch Devices, Game Controllers, Optical Input Devices,",
+                                "attended": true,
+                                "start_time": "22-02-2023 10:00 AM",
+                                "end_time": "22-02-2023 11:30 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Audio Visual Devices; Output Devices: Monitors, Audio Output, and Printers & Plotters. How Computer Process Data; Central Processing Unit: Control Unit, Arithmetic & Logic Unit",
+                                "attended": true,
+                                "start_time": "23-02-2023 01:30 PM",
+                                "end_time": "23-02-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "optical input devices, audio visual devices Output devices: monitors and its types, headphones, printers and its types",
+                                "attended": true,
+                                "start_time": "02-03-2023 01:30 PM",
+                                "end_time": "02-03-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "How computer process data; Central processing unit: control unit, arithmetic logic unit; Memory: volatile and non-volatile, flash memory, Registers; Cache memory\nBus and its types, Ports",
+                                "attended": true,
+                                "start_time": "03-03-2023 01:30 PM",
+                                "end_time": "03-03-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "How Computer Represent Data: Number Systems, Bits & Bytes, and Text Codes.",
+                                "attended": true,
+                                "start_time": "09-03-2023 01:30 PM",
+                                "end_time": "09-03-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Number Systems: Binary, Octal, Hexadecimal, and Conversions.Number Systems Arithmetic: Addition & Subtraction of Decimal, Binary, Octal, and Hexadecimal Number System.",
+                                "attended": true,
+                                "start_time": "10-03-2023 01:30 PM",
+                                "end_time": "10-03-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Computer Software: System Software, Application Software, Operating System (OS): Basic Purpose of OS, Types of OS,Operating System Functions: Providing User Interface, Running Programs, Managing Hardware, Utility Programs, PC Operating System, Network Operating System, and Embedded Operating System.",
+                                "attended": true,
+                                "start_time": "16-03-2023 03:30 PM",
+                                "end_time": "16-03-2023 05:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Database: What is a Database? Advantages & Disadvantages of the DBMS Approach, Data Concepts & Characteristics, Data Definition, Data Hierarchy Entities & Entity Relationships, Data Integrity, Security & Privacy, and Centralized vs. Distributed Database Systems.",
+                                "attended": true,
+                                "start_time": "17-03-2023 08:30 AM",
+                                "end_time": "17-03-2023 10:00 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Networking Concepts; Networking Applications: Telecom Industry, Videoconferencing; Network Characteristics: Types of networks, Network Topologies",
+                                "attended": true,
+                                "start_time": "24-03-2023 11:00 AM",
+                                "end_time": "24-03-2023 12:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Networking Media: Wired Networking Media & Wireless\nNetworking Media; Communications Protocols & Networking\nStandards; and Networking Hardware.",
+                                "attended": true,
+                                "start_time": "30-03-2023 11:00 AM",
+                                "end_time": "30-03-2023 12:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Basic Security Concepts: Threats to User: Identity Theft, Loss of\nPrivacy, Online Spying Tools, Online Theft, Online Fraud, & Other\nDot Cons; Threats to Hardware: Power Related Threats, Hardware\nLoss, Hardware Damage, System Failure, Unauthorized Access &\nUnauthorized Use, Natural Disasters; Threats to Data: Malware,\nVirus & Malicious Program, Cybercrime, Cyber-Terrorism, and\nCounter Measures",
+                                "attended": true,
+                                "start_time": "31-03-2023 11:00 AM",
+                                "end_time": "31-03-2023 12:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Information Systems & System Development: Need for System Development Enterprise Architecture, Business Intelligence (BI), Users of Information Systems; Types of Information Systems; Responsibility for System Development; System Development Life Cycle (SDLC); and Approaches to System Development.",
+                                "attended": true,
+                                "start_time": "06-04-2023 11:00 AM",
+                                "end_time": "06-04-2023 12:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "E-commerce: Overview, E-commerce Basics, Business Applications, Global Trends; Impacts: Impacts on Market & Retailers, Impact on Supply Chain Management,",
+                                "attended": true,
+                                "start_time": "07-04-2023 11:00 AM",
+                                "end_time": "07-04-2023 12:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Cloud Computing: Overview, Advantages & Disadvantages, Characteristics; Service Models; Deployment Models; and Security & Privacy.",
+                                "attended": true,
+                                "start_time": "13-04-2023 11:00 AM",
+                                "end_time": "13-04-2023 12:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "IoT: Applications; Trends, Characteristics & IoT Adoption Barriers;",
+                                "attended": true,
+                                "start_time": "14-04-2023 11:00 AM",
+                                "end_time": "14-04-2023 12:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Augmented Reality (AR): Technology, Possible Applications, Remote Collaboration, and Danger of AR.",
+                                "attended": true,
+                                "start_time": "20-04-2023 11:00 AM",
+                                "end_time": "20-04-2023 12:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Online Class .Revision for exam",
+                                "attended": true,
+                                "start_time": "28-04-2023 10:00 AM",
+                                "end_time": "28-04-2023 11:30 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Mid-Term Exam",
+                                "attended": true,
+                                "start_time": "03-05-2023 10:00 AM",
+                                "end_time": "03-05-2023 11:30 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "What is an Algorithm and how we draw Flowchart from algorithms with examples.",
+                                "attended": true,
+                                "start_time": "22-05-2023 01:30 PM",
+                                "end_time": "22-05-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Strings, Control Codes within Strings, Slicing & Indexing Strings, Concatenation, and Arithmetic Operators with Strings",
+                                "attended": true,
+                                "start_time": "25-05-2023 01:30 PM",
+                                "end_time": "25-05-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "While Loop, Conditionals within a Loop,",
+                                "attended": true,
+                                "start_time": "26-05-2023 08:30 AM",
+                                "end_time": "26-05-2023 10:00 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Counting using while Loop, and break & continue Statements.",
+                                "attended": true,
+                                "start_time": "26-05-2023 01:30 PM",
+                                "end_time": "26-05-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Functions: Predefined vs User Defined Function, Using Predefined Functions, Standard Mathematical Functions, and Random Numbers.",
+                                "attended": true,
+                                "start_time": "01-06-2023 01:30 PM",
+                                "end_time": "01-06-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Standard Mathematical Functions, and Random Numbers +what is set and Dictionary in python.",
+                                "attended": true,
+                                "start_time": "02-06-2023 01:30 PM",
+                                "end_time": "02-06-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Explanation of built in function+  Arrays",
+                                "attended": true,
+                                "start_time": "03-06-2023 01:30 PM",
+                                "end_time": "03-06-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Void Function vs Value Returning Function, Fruitful Functions; Incremental Development, and Boolean Functions.",
+                                "attended": true,
+                                "start_time": "08-06-2023 01:30 PM",
+                                "end_time": "08-06-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "User Defined Functions: Function Basics, Defining Functions, Calling Functions, Defining Main Function, and Parameter Passing.",
+                                "attended": true,
+                                "start_time": "09-06-2023 08:30 AM",
+                                "end_time": "09-06-2023 10:00 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "List, Tuple, While ,For loop Revision + Quiz 4",
+                                "attended": true,
+                                "start_time": "09-06-2023 01:30 PM",
+                                "end_time": "09-06-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Conditional Structure Revision",
+                                "attended": true,
+                                "start_time": "16-06-2023 10:00 AM",
+                                "end_time": "16-06-2023 11:30 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "class",
+                                "topic": "Repetition Structures Revision",
+                                "attended": true,
+                                "start_time": "16-06-2023 11:30 AM",
+                                "end_time": "16-06-2023 01:00 PM"
+                            }
+                        ],
+                        "total": 30,
+                        "present": 30,
+                        "absent": 0
+                    },
+                    {
+                        "attendanceType": "lab",
+                        "attendance": [
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Introduction to Microsoft Word,Create a new word document, save it on your Desktop and close it.Open the file you created in Activity 1. Change the font face and size.Use Bold, italics, underline, strike through, superscript and subscript options, and other Font options and make following changes,different paragraph options.Type-in the following text in either a new word document or an existing one,",
+                                "attended": true,
+                                "start_time": "24-02-2023 01:30 PM",
+                                "end_time": "24-02-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "using different paragraph options.Insert different pages in a Word document such as Cover page or a blank page. Cover page is the first page of any document that displays the title, date, author name, organization name, etc. Blank page is a new empty page that is added at the cursor position.",
+                                "attended": true,
+                                "start_time": "24-02-2023 03:00 PM",
+                                "end_time": "24-02-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Design the layout of document pages. Apply different themes, setup page, and page background.Write a paragraph and create four copies of the paragraph by copying the text. Insert a page break before each paragraph so that the first page is blank. Insert a line before each paragraph and type a heading line such as \u201cParagraph 1\u201d, \u201cParagraph 2\u201d, etc. Set the style of each heading line to be Heading 1.Create, update and remove table of contents.Insert references.",
+                                "attended": true,
+                                "start_time": "28-02-2023 10:00 AM",
+                                "end_time": "28-02-2023 11:30 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Lab Activity No 01: Draw the figure given below. Use different shapes and group them.\nLab Activity No 02:A flyer is a pamphlet, which is a form of paper advertisement intended for wide distribution in a public place, handed out to individuals or sent through the mail.\nConsider you work at a company. Your boss has asked you to prepare a flyer that advertises company\u2019s major products and/or services.\nTwo sample flyers are given below",
+                                "attended": true,
+                                "start_time": "06-03-2023 11:30 AM",
+                                "end_time": "06-03-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Introduction and Activity to Microsoft PowerPoint",
+                                "attended": false,
+                                "start_time": "07-03-2023 10:00 AM",
+                                "end_time": "07-03-2023 11:30 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Introduction and Activity to Microsoft PowerPoint",
+                                "attended": true,
+                                "start_time": "07-03-2023 11:30 AM",
+                                "end_time": "07-03-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Introduction and Activity of Microsoft Excel",
+                                "attended": true,
+                                "start_time": "14-03-2023 10:00 AM",
+                                "end_time": "14-03-2023 11:30 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Introduction and Activity of Microsoft Excel",
+                                "attended": true,
+                                "start_time": "14-03-2023 11:30 AM",
+                                "end_time": "14-03-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Introduction to Microsoft Access. Database creation, Data Insertion In database. Form designing, Report Generating",
+                                "attended": true,
+                                "start_time": "21-03-2023 10:00 AM",
+                                "end_time": "21-03-2023 11:30 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Introduction to Microsoft Access. Database creation, Data Insertion In database. Form designing, Report Generating",
+                                "attended": true,
+                                "start_time": "21-03-2023 11:30 AM",
+                                "end_time": "21-03-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": ",Form designing using MS Access, Report Generator, Create, Insert, Update, Delete Query",
+                                "attended": false,
+                                "start_time": "28-03-2023 09:00 AM",
+                                "end_time": "28-03-2023 10:00 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": ",Form designing using MS Access, Report Generator, Create, Insert, Update, Delete Query",
+                                "attended": false,
+                                "start_time": "28-03-2023 10:00 AM",
+                                "end_time": "28-03-2023 11:00 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Introduction to Python, Installation, Variable, Data types.",
+                                "attended": true,
+                                "start_time": "04-04-2023 09:00 AM",
+                                "end_time": "04-04-2023 10:00 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Introduction to Python, Installation, Variable, Data types.",
+                                "attended": true,
+                                "start_time": "04-04-2023 10:00 AM",
+                                "end_time": "04-04-2023 11:00 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Nested If Statements + Flow Chart",
+                                "attended": true,
+                                "start_time": "11-04-2023 09:00 AM",
+                                "end_time": "11-04-2023 10:00 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Nested If Statements + Flow Chart",
+                                "attended": true,
+                                "start_time": "11-04-2023 10:00 AM",
+                                "end_time": "11-04-2023 11:00 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Lab Mid Term Exam",
+                                "attended": true,
+                                "start_time": "18-04-2023 09:00 AM",
+                                "end_time": "18-04-2023 10:00 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Lab Mid Term Exam",
+                                "attended": true,
+                                "start_time": "18-04-2023 10:00 AM",
+                                "end_time": "18-04-2023 11:00 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "If ,elif and nested if Lab Tasks",
+                                "attended": true,
+                                "start_time": "22-05-2023 08:30 AM",
+                                "end_time": "22-05-2023 10:00 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "While loop ,nested while loop",
+                                "attended": true,
+                                "start_time": "23-05-2023 10:00 AM",
+                                "end_time": "23-05-2023 11:30 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "While loop ,nested while loop",
+                                "attended": true,
+                                "start_time": "23-05-2023 11:30 AM",
+                                "end_time": "23-05-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "While loop with break and continue statements",
+                                "attended": true,
+                                "start_time": "26-05-2023 03:00 PM",
+                                "end_time": "26-05-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "For Loop Implementation",
+                                "attended": true,
+                                "start_time": "29-05-2023 08:30 AM",
+                                "end_time": "29-05-2023 10:00 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Implementation of list and Tuple",
+                                "attended": true,
+                                "start_time": "30-05-2023 10:00 AM",
+                                "end_time": "30-05-2023 11:30 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Implementation of list and Tuple",
+                                "attended": true,
+                                "start_time": "30-05-2023 11:30 AM",
+                                "end_time": "30-05-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Implementation of list ,dictionary using user define functions,",
+                                "attended": true,
+                                "start_time": "02-06-2023 03:00 PM",
+                                "end_time": "02-06-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Searching in Arrays + Lab Task",
+                                "attended": true,
+                                "start_time": "06-06-2023 10:00 AM",
+                                "end_time": "06-06-2023 11:30 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Searching in Arrays + Lab Task",
+                                "attended": true,
+                                "start_time": "06-06-2023 11:30 AM",
+                                "end_time": "06-06-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Lab Terminal",
+                                "attended": true,
+                                "start_time": "13-06-2023 10:00 AM",
+                                "end_time": "13-06-2023 11:30 AM"
+                            },
+                            {
+                                "course_id": "CSC101",
+                                "attendance_type": "lab",
+                                "topic": "Lab Terminal",
+                                "attended": true,
+                                "start_time": "13-06-2023 11:30 AM",
+                                "end_time": "13-06-2023 01:00 PM"
+                            }
+                        ],
+                        "total": 30,
+                        "present": 27,
+                        "absent": 3
+                    }
+                ],
+                "overview": {
+                    "total": 60,
+                    "present": 57,
+                    "absent": 3
+                }
+            },
+            "overview": {
+                "totalMarks": 230.0,
+                "marks": 212.5,
+                "percentage": 92.39
+            }
+        },
+        "HUM100": {
+            "courseScore": {
+                "Assignments": {
+                    "totalMarks": 40.0,
+                    "marks": 35.0,
+                    "percentage": 87.5,
+                    "data": [
+                        {
+                            "course_id": "HUM100",
+                            "course_name": "English Comprehension and Composition",
+                            "credit_hours": "3",
+                            "teacher": "Dr. Muhammad Yousaf Khan",
+                            "section_title": "Assignments",
+                            "title": "Assign1",
+                            "marks": 8.0,
+                            "total_marks": 10.0,
+                            "datetime": "24-03-2023"
+                        },
+                        {
+                            "course_id": "HUM100",
+                            "course_name": "English Comprehension and Composition",
+                            "credit_hours": "3",
+                            "teacher": "Dr. Muhammad Yousaf Khan",
+                            "section_title": "Assignments",
+                            "title": "Assign2",
+                            "marks": 10.0,
+                            "total_marks": 10.0,
+                            "datetime": "19-04-2023"
+                        },
+                        {
+                            "course_id": "HUM100",
+                            "course_name": "English Comprehension and Composition",
+                            "credit_hours": "3",
+                            "teacher": "Dr. Muhammad Yousaf Khan",
+                            "section_title": "Assignments",
+                            "title": "Assign3",
+                            "marks": 8.0,
+                            "total_marks": 10.0,
+                            "datetime": "10-06-2023"
+                        },
+                        {
+                            "course_id": "HUM100",
+                            "course_name": "English Comprehension and Composition",
+                            "credit_hours": "3",
+                            "teacher": "Dr. Muhammad Yousaf Khan",
+                            "section_title": "Assignments",
+                            "title": "Assign4",
+                            "marks": 9.0,
+                            "total_marks": 10.0,
+                            "datetime": "10-06-2023"
+                        }
+                    ]
+                },
+                "Final": {
+                    "totalMarks": 50.0,
+                    "marks": 50.0,
+                    "percentage": 100.0,
+                    "data": [
+                        {
+                            "course_id": "HUM100",
+                            "course_name": "English Comprehension and Composition",
+                            "credit_hours": "3",
+                            "teacher": "Dr. Muhammad Yousaf Khan",
+                            "section_title": "Final",
+                            "title": "Final",
+                            "marks": 50.0,
+                            "total_marks": 50.0,
+                            "datetime": "06-07-2023"
+                        }
+                    ]
+                },
+                "Midterm Marks": {
+                    "totalMarks": 30.0,
+                    "marks": 30.0,
+                    "percentage": 100.0,
+                    "data": [
+                        {
+                            "course_id": "HUM100",
+                            "course_name": "English Comprehension and Composition",
+                            "credit_hours": "3",
+                            "teacher": "Dr. Muhammad Yousaf Khan",
+                            "section_title": "Midterm Marks",
+                            "title": "MidTermMarks",
+                            "marks": 30.0,
+                            "total_marks": 30.0,
+                            "datetime": "05-05-2023"
+                        }
+                    ]
+                },
+                "Quizzes": {
+                    "totalMarks": 40.0,
+                    "marks": 30.0,
+                    "percentage": 75.0,
+                    "data": [
+                        {
+                            "course_id": "HUM100",
+                            "course_name": "English Comprehension and Composition",
+                            "credit_hours": "3",
+                            "teacher": "Dr. Muhammad Yousaf Khan",
+                            "section_title": "Quizzes",
+                            "title": "Quiz1",
+                            "marks": 8.0,
+                            "total_marks": 10.0,
+                            "datetime": "15-03-2023"
+                        },
+                        {
+                            "course_id": "HUM100",
+                            "course_name": "English Comprehension and Composition",
+                            "credit_hours": "3",
+                            "teacher": "Dr. Muhammad Yousaf Khan",
+                            "section_title": "Quizzes",
+                            "title": "Quiz2",
+                            "marks": 6.0,
+                            "total_marks": 10.0,
+                            "datetime": "19-04-2023"
+                        },
+                        {
+                            "course_id": "HUM100",
+                            "course_name": "English Comprehension and Composition",
+                            "credit_hours": "3",
+                            "teacher": "Dr. Muhammad Yousaf Khan",
+                            "section_title": "Quizzes",
+                            "title": "Quiz3",
+                            "marks": 8.0,
+                            "total_marks": 10.0,
+                            "datetime": "10-06-2023"
+                        },
+                        {
+                            "course_id": "HUM100",
+                            "course_name": "English Comprehension and Composition",
+                            "credit_hours": "3",
+                            "teacher": "Dr. Muhammad Yousaf Khan",
+                            "section_title": "Quizzes",
+                            "title": "Quiz4",
+                            "marks": 8.0,
+                            "total_marks": 10.0,
+                            "datetime": "10-06-2023"
+                        }
+                    ]
+                }
+            },
+            "attendance": {
+                "attendanceData": [
+                    {
+                        "attendanceType": "class",
+                        "attendance": [
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "Parts of Speech\nNouns, Pronouns, Verbs, Adjectives,\nAdverbs, Prepositions\n Conjunctions, Interjections",
+                                "attended": true,
+                                "start_time": "21-02-2023 03:00 PM",
+                                "end_time": "21-02-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "\u2022\tArticles, Linking Verbs \n\u2022\tClass Discussion",
+                                "attended": true,
+                                "start_time": "22-02-2023 01:30 PM",
+                                "end_time": "22-02-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "\u2022\tGerund / Infinitive, Clauses of Concession\n\u2022\tClass Activity)",
+                                "attended": true,
+                                "start_time": "28-02-2023 03:00 PM",
+                                "end_time": "28-02-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "\u2022\tGerund / Infinitive, Clauses of Concession\n\u2022\tClass Activity)\nCONTINUED",
+                                "attended": true,
+                                "start_time": "01-03-2023 01:00 PM",
+                                "end_time": "01-03-2023 02:30 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "\u2022\tRedundancy, Parallel Structure\n\u2022\tClass Activity",
+                                "attended": true,
+                                "start_time": "07-03-2023 03:00 PM",
+                                "end_time": "07-03-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "\u2022\tRedundancy, Parallel Structure\nCONTINUED",
+                                "attended": true,
+                                "start_time": "08-03-2023 01:30 PM",
+                                "end_time": "08-03-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "\u2022\tTransformation of different patterns of Sentences",
+                                "attended": true,
+                                "start_time": "14-03-2023 03:00 PM",
+                                "end_time": "14-03-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "\u2022\tTransformation of different patterns of Sentences\nCONTINUED",
+                                "attended": true,
+                                "start_time": "15-03-2023 01:30 PM",
+                                "end_time": "15-03-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "Class Activity ON THE PREVIOUS TOPIC OF \"Transformation of different patterns of Sentences\"",
+                                "attended": true,
+                                "start_time": "21-03-2023 03:00 PM",
+                                "end_time": "21-03-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "\u2022\tSubject \u2013 Verb Agreement\n\u2022\tRules",
+                                "attended": true,
+                                "start_time": "22-03-2023 01:30 PM",
+                                "end_time": "22-03-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "\u2022\tBasic Sentence Structure\n\u2022\tAn over view of Tenses",
+                                "attended": true,
+                                "start_time": "28-03-2023 03:00 PM",
+                                "end_time": "28-03-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "\u2022\tClass Activity and Group  Discussion",
+                                "attended": false,
+                                "start_time": "29-03-2023 01:30 PM",
+                                "end_time": "29-03-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "\u2022\tConditional Sentences",
+                                "attended": true,
+                                "start_time": "04-04-2023 03:00 PM",
+                                "end_time": "04-04-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "\u2022\tPractical activity on Conditional Sentences",
+                                "attended": true,
+                                "start_time": "05-04-2023 01:30 PM",
+                                "end_time": "05-04-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "\u2022\tParagraph development",
+                                "attended": true,
+                                "start_time": "11-04-2023 02:00 PM",
+                                "end_time": "11-04-2023 03:30 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "\u2022\tPractical Activity on Paragraph Writing",
+                                "attended": true,
+                                "start_time": "12-04-2023 01:30 PM",
+                                "end_time": "12-04-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "Class Activity on Paragraph Writing",
+                                "attended": true,
+                                "start_time": "18-04-2023 03:00 PM",
+                                "end_time": "18-04-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "Dialogue Writing",
+                                "attended": true,
+                                "start_time": "19-04-2023 01:30 PM",
+                                "end_time": "19-04-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "Dialogue Writing (CONTINUED)",
+                                "attended": true,
+                                "start_time": "26-04-2023 01:30 PM",
+                                "end_time": "26-04-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "MID TERM EXAM",
+                                "attended": true,
+                                "start_time": "05-05-2023 10:00 AM",
+                                "end_time": "05-05-2023 11:30 AM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "Reading Comprehension\nSkimming & Scanning",
+                                "attended": true,
+                                "start_time": "23-05-2023 03:00 PM",
+                                "end_time": "23-05-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "Reading Comprehension\n\u2022\tSQR3 Method of Reading",
+                                "attended": true,
+                                "start_time": "24-05-2023 01:30 PM",
+                                "end_time": "24-05-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "Writing Section\n\u2022\tArgument\n\u2022\tDescription\n\u2022\tNarration",
+                                "attended": true,
+                                "start_time": "30-05-2023 03:00 PM",
+                                "end_time": "30-05-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "Writing Section\n\u2022\tArgument\n\u2022\tDescription\n\u2022\tNarration",
+                                "attended": true,
+                                "start_time": "31-05-2023 01:30 PM",
+                                "end_time": "31-05-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "Pr\u00e9cis Writing",
+                                "attended": true,
+                                "start_time": "06-06-2023 03:00 PM",
+                                "end_time": "06-06-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "Class Activity on Writing",
+                                "attended": true,
+                                "start_time": "07-06-2023 01:30 PM",
+                                "end_time": "07-06-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "Pr\u00e9cis Writing (Theoretical lecture )",
+                                "attended": true,
+                                "start_time": "10-06-2023 10:00 AM",
+                                "end_time": "10-06-2023 11:30 AM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "Pr\u00e9cis Writing (class activity)",
+                                "attended": true,
+                                "start_time": "10-06-2023 11:30 AM",
+                                "end_time": "10-06-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "Students; Queries",
+                                "attended": true,
+                                "start_time": "13-06-2023 03:00 PM",
+                                "end_time": "13-06-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "HUM100",
+                                "attendance_type": "class",
+                                "topic": "Problem Solving Session",
+                                "attended": true,
+                                "start_time": "14-06-2023 01:30 PM",
+                                "end_time": "14-06-2023 03:00 PM"
+                            }
+                        ],
+                        "total": 30,
+                        "present": 29,
+                        "absent": 1
+                    }
+                ],
+                "overview": {
+                    "total": 30,
+                    "present": 29,
+                    "absent": 1
+                }
+            },
+            "overview": {
+                "totalMarks": 160.0,
+                "marks": 145.0,
+                "percentage": 90.62
+            }
+        },
+        "HUM110": {
+            "courseScore": {
+                "Assignments": {
+                    "totalMarks": 25.0,
+                    "marks": 21.0,
+                    "percentage": 84.0,
+                    "data": [
+                        {
+                            "course_id": "HUM110",
+                            "course_name": "Islamic Studies",
+                            "credit_hours": "3",
+                            "teacher": "Dr. Abdul Wahid",
+                            "section_title": "Assignments",
+                            "title": "Assign1",
+                            "marks": 4.0,
+                            "total_marks": 4.0,
+                            "datetime": "24-03-2023"
+                        },
+                        {
+                            "course_id": "HUM110",
+                            "course_name": "Islamic Studies",
+                            "credit_hours": "3",
+                            "teacher": "Dr. Abdul Wahid",
+                            "section_title": "Assignments",
+                            "title": "Assign2",
+                            "marks": 5.0,
+                            "total_marks": 6.0,
+                            "datetime": "19-04-2023"
+                        },
+                        {
+                            "course_id": "HUM110",
+                            "course_name": "Islamic Studies",
+                            "credit_hours": "3",
+                            "teacher": "Dr. Abdul Wahid",
+                            "section_title": "Assignments",
+                            "title": "Assign3",
+                            "marks": 3.0,
+                            "total_marks": 5.0,
+                            "datetime": "10-06-2023"
+                        },
+                        {
+                            "course_id": "HUM110",
+                            "course_name": "Islamic Studies",
+                            "credit_hours": "3",
+                            "teacher": "Dr. Abdul Wahid",
+                            "section_title": "Assignments",
+                            "title": "Assign4",
+                            "marks": 9.0,
+                            "total_marks": 10.0,
+                            "datetime": "10-06-2023"
+                        }
+                    ]
+                },
+                "Final": {
+                    "totalMarks": 50.0,
+                    "marks": 44.0,
+                    "percentage": 88.0,
+                    "data": [
+                        {
+                            "course_id": "HUM110",
+                            "course_name": "Islamic Studies",
+                            "credit_hours": "3",
+                            "teacher": "Dr. Abdul Wahid",
+                            "section_title": "Final",
+                            "title": "Final",
+                            "marks": 44.0,
+                            "total_marks": 50.0,
+                            "datetime": "27-06-2023"
+                        }
+                    ]
+                },
+                "Midterm Marks": {
+                    "totalMarks": 25.0,
+                    "marks": 25.0,
+                    "percentage": 100.0,
+                    "data": [
+                        {
+                            "course_id": "HUM110",
+                            "course_name": "Islamic Studies",
+                            "credit_hours": "3",
+                            "teacher": "Dr. Abdul Wahid",
+                            "section_title": "Midterm Marks",
+                            "title": "MidTermMarks",
+                            "marks": 25.0,
+                            "total_marks": 25.0,
+                            "datetime": "19-05-2023"
+                        }
+                    ]
+                },
+                "Quizzes": {
+                    "totalMarks": 27.0,
+                    "marks": 24.5,
+                    "percentage": 90.74,
+                    "data": [
+                        {
+                            "course_id": "HUM110",
+                            "course_name": "Islamic Studies",
+                            "credit_hours": "3",
+                            "teacher": "Dr. Abdul Wahid",
+                            "section_title": "Quizzes",
+                            "title": "Quiz1",
+                            "marks": 5.0,
+                            "total_marks": 5.0,
+                            "datetime": "24-03-2023"
+                        },
+                        {
+                            "course_id": "HUM110",
+                            "course_name": "Islamic Studies",
+                            "credit_hours": "3",
+                            "teacher": "Dr. Abdul Wahid",
+                            "section_title": "Quizzes",
+                            "title": "Quiz2",
+                            "marks": 5.0,
+                            "total_marks": 5.0,
+                            "datetime": "19-04-2023"
+                        },
+                        {
+                            "course_id": "HUM110",
+                            "course_name": "Islamic Studies",
+                            "credit_hours": "3",
+                            "teacher": "Dr. Abdul Wahid",
+                            "section_title": "Quizzes",
+                            "title": "Quiz3",
+                            "marks": 9.0,
+                            "total_marks": 10.0,
+                            "datetime": "03-06-2023"
+                        },
+                        {
+                            "course_id": "HUM110",
+                            "course_name": "Islamic Studies",
+                            "credit_hours": "3",
+                            "teacher": "Dr. Abdul Wahid",
+                            "section_title": "Quizzes",
+                            "title": "Quiz4",
+                            "marks": 5.5,
+                            "total_marks": 7.0,
+                            "datetime": "10-06-2023"
+                        }
+                    ]
+                }
+            },
+            "attendance": {
+                "attendanceData": [
+                    {
+                        "attendanceType": "class",
+                        "attendance": [
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Introduction: An Introduction to Islamic Studies \u2022 Objective and Aims \u2022 Course Outline and Tentative Schedule \u2022 Marks Break-up \u2022 Reference Books",
+                                "attended": true,
+                                "start_time": "20-02-2023 11:30 AM",
+                                "end_time": "20-02-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Need of Islamization",
+                                "attended": true,
+                                "start_time": "23-02-2023 03:00 PM",
+                                "end_time": "23-02-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Purpose of life",
+                                "attended": true,
+                                "start_time": "27-02-2023 11:30 AM",
+                                "end_time": "27-02-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Is Islam outdated? If not, why is it incompatible with modern society?",
+                                "attended": true,
+                                "start_time": "02-03-2023 03:00 PM",
+                                "end_time": "02-03-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Islam and Rationalism: A Comprehensive Analysis from the Quran and Sunnah.",
+                                "attended": true,
+                                "start_time": "06-03-2023 11:30 AM",
+                                "end_time": "06-03-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Misconceptions about Islam like limited principles of Islam cannot solve all problems.",
+                                "attended": true,
+                                "start_time": "09-03-2023 03:00 PM",
+                                "end_time": "09-03-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Misconceptions about Islam like limited principles of Islam cannot solve all problems.",
+                                "attended": true,
+                                "start_time": "13-03-2023 11:30 AM",
+                                "end_time": "13-03-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "What is Islam, Eman,Ehsan, and signs of Qiyamah in the light of hathes e Jibraiel.",
+                                "attended": true,
+                                "start_time": "16-03-2023 03:00 PM",
+                                "end_time": "16-03-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Islam: Introduction of Islam.The meaning of Islam Difference between Islam and Iman Differences between Islam and other religion Basic Characteristics of Islamic Ideology Islam is the only true Divine religion Islam is a universal religion Islam is a symbol of peace.",
+                                "attended": true,
+                                "start_time": "20-03-2023 11:30 AM",
+                                "end_time": "20-03-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Sawm(Fasting), Importance of sawm.Purpose of Fasting, Benefits of fasting. How we carry out Sawm. Its kinds.",
+                                "attended": true,
+                                "start_time": "27-03-2023 10:00 AM",
+                                "end_time": "27-03-2023 11:30 AM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Real aims of Fasting. Different kinds of fasting. Conditions of fasting. Faraiz-e-sawm.Kaffaraah and fidyah .",
+                                "attended": true,
+                                "start_time": "30-03-2023 12:00 PM",
+                                "end_time": "30-03-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Fundamental beliefs in Islam:- Tawheed (Oneness of ALLAH) The meaning of Tawheed, Kinds of Tawheed Effects of Tawheed on human life.",
+                                "attended": true,
+                                "start_time": "03-04-2023 10:00 AM",
+                                "end_time": "03-04-2023 11:00 AM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Shirk The meaning of Shirk Kinds of Shirk Every day examples of Shirk.",
+                                "attended": true,
+                                "start_time": "06-04-2023 12:00 PM",
+                                "end_time": "06-04-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Angels. Contact between man and creator. Basic qualities of Angles. Prominent Angles. Angles are also recorders.",
+                                "attended": true,
+                                "start_time": "10-04-2023 10:00 AM",
+                                "end_time": "10-04-2023 11:00 AM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Holy books",
+                                "attended": true,
+                                "start_time": "13-04-2023 12:00 PM",
+                                "end_time": "13-04-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Islam vs Christiany",
+                                "attended": true,
+                                "start_time": "27-04-2023 03:00 PM",
+                                "end_time": "27-04-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Midterm",
+                                "attended": true,
+                                "start_time": "08-05-2023 11:30 AM",
+                                "end_time": "08-05-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Prophet hood",
+                                "attended": true,
+                                "start_time": "11-05-2023 03:30 PM",
+                                "end_time": "11-05-2023 05:00 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Characteristics of Hazrat Muhammad SAW",
+                                "attended": false,
+                                "start_time": "18-05-2023 11:30 AM",
+                                "end_time": "18-05-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Taqdeer",
+                                "attended": true,
+                                "start_time": "22-05-2023 11:30 AM",
+                                "end_time": "22-05-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Life after death",
+                                "attended": true,
+                                "start_time": "25-05-2023 03:00 PM",
+                                "end_time": "25-05-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Last day",
+                                "attended": true,
+                                "start_time": "26-05-2023 11:30 AM",
+                                "end_time": "26-05-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Sign of Qiyamah",
+                                "attended": true,
+                                "start_time": "27-05-2023 11:30 AM",
+                                "end_time": "27-05-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Pillars of Islam (Arqan-e-Isalm)\nDeclaration of Faith. What is faith? Real success is not possible without faith.\nimportance of worships and obedience of Hazrat Muhammad SAW",
+                                "attended": true,
+                                "start_time": "29-05-2023 11:30 AM",
+                                "end_time": "29-05-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Taharat\n(Before begin the salah).\nNajaasat (filth)its kinds .\nRules of purity.  Kinds of Nijasat e haqeqi/Hukmi\nWazu, Ghusal. Tayammum.",
+                                "attended": false,
+                                "start_time": "01-06-2023 03:00 PM",
+                                "end_time": "01-06-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Salah (Prayers) its importance How to perform prayers? (Salah). Complete ahkam (rules)\nFraez, wajibat, sunan, mufsidat, makrohat,\nMasael of sajdehsehve .",
+                                "attended": false,
+                                "start_time": "02-06-2023 11:30 AM",
+                                "end_time": "02-06-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Namaz",
+                                "attended": true,
+                                "start_time": "05-06-2023 11:30 AM",
+                                "end_time": "05-06-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "Alms giving (al-Zakah comparative study)",
+                                "attended": true,
+                                "start_time": "08-06-2023 03:00 PM",
+                                "end_time": "08-06-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "The recipients of zakat according to the Qur'an. Recipients of Zakat. Schedule of Zakah. The virtues of Zakah. The punishment for not giving Zakah For whom Zakah is Obligatory Types of wealth on which Zakat is not Farz The Niyyat of zakat The method of distributing zakat Entitlement of Zakat.",
+                                "attended": true,
+                                "start_time": "12-06-2023 11:30 AM",
+                                "end_time": "12-06-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "HUM110",
+                                "attendance_type": "class",
+                                "topic": "",
+                                "attended": false,
+                                "start_time": "15-06-2023 05:00 PM",
+                                "end_time": "15-06-2023 06:30 PM"
+                            }
+                        ],
+                        "total": 30,
+                        "present": 26,
+                        "absent": 4
+                    }
+                ],
+                "overview": {
+                    "total": 30,
+                    "present": 26,
+                    "absent": 4
+                }
+            },
+            "overview": {
+                "totalMarks": 127.0,
+                "marks": 114.5,
+                "percentage": 90.16
+            }
+        },
+        "HUM111": {
+            "courseScore": {
+                "Assignments": {
+                    "totalMarks": 80.0,
+                    "marks": 65.0,
+                    "percentage": 81.25,
+                    "data": [
+                        {
+                            "course_id": "HUM111",
+                            "course_name": "Pakistan Studies",
+                            "credit_hours": "3",
+                            "teacher": "Rabia Shafaat (Hybrid HUM111)",
+                            "section_title": "Assignments",
+                            "title": "Assign1",
+                            "marks": 9.0,
+                            "total_marks": 10.0,
+                            "datetime": "13-04-2023"
+                        },
+                        {
+                            "course_id": "HUM111",
+                            "course_name": "Pakistan Studies",
+                            "credit_hours": "3",
+                            "teacher": "Rabia Shafaat (Hybrid HUM111)",
+                            "section_title": "Assignments",
+                            "title": "Assign2",
+                            "marks": 8.0,
+                            "total_marks": 10.0,
+                            "datetime": "17-04-2023"
+                        },
+                        {
+                            "course_id": "HUM111",
+                            "course_name": "Pakistan Studies",
+                            "credit_hours": "3",
+                            "teacher": "Rabia Shafaat (Hybrid HUM111)",
+                            "section_title": "Assignments",
+                            "title": "Assign3",
+                            "marks": 40.0,
+                            "total_marks": 50.0,
+                            "datetime": "12-06-2023"
+                        },
+                        {
+                            "course_id": "HUM111",
+                            "course_name": "Pakistan Studies",
+                            "credit_hours": "3",
+                            "teacher": "Rabia Shafaat (Hybrid HUM111)",
+                            "section_title": "Assignments",
+                            "title": "Assign4",
+                            "marks": 8.0,
+                            "total_marks": 10.0,
+                            "datetime": "14-06-2023"
+                        }
+                    ]
+                },
+                "Final": {
+                    "totalMarks": 50.0,
+                    "marks": 45.0,
+                    "percentage": 90.0,
+                    "data": [
+                        {
+                            "course_id": "HUM111",
+                            "course_name": "Pakistan Studies",
+                            "credit_hours": "3",
+                            "teacher": "Rabia Shafaat (Hybrid HUM111)",
+                            "section_title": "Final",
+                            "title": "FInal",
+                            "marks": 45.0,
+                            "total_marks": 50.0,
+                            "datetime": "04-07-2023"
+                        }
+                    ]
+                },
+                "Midterm Marks": {
+                    "totalMarks": 35.0,
+                    "marks": 32.0,
+                    "percentage": 91.43,
+                    "data": [
+                        {
+                            "course_id": "HUM111",
+                            "course_name": "Pakistan Studies",
+                            "credit_hours": "3",
+                            "teacher": "Rabia Shafaat (Hybrid HUM111)",
+                            "section_title": "Midterm Marks",
+                            "title": "MidTermMarks",
+                            "marks": 32.0,
+                            "total_marks": 35.0,
+                            "datetime": "26-05-2023"
+                        }
+                    ]
+                },
+                "Quizzes": {
+                    "totalMarks": 60.0,
+                    "marks": 57.0,
+                    "percentage": 95.0,
+                    "data": [
+                        {
+                            "course_id": "HUM111",
+                            "course_name": "Pakistan Studies",
+                            "credit_hours": "3",
+                            "teacher": "Rabia Shafaat (Hybrid HUM111)",
+                            "section_title": "Quizzes",
+                            "title": "Quiz1",
+                            "marks": 14.0,
+                            "total_marks": 15.0,
+                            "datetime": "13-04-2023"
+                        },
+                        {
+                            "course_id": "HUM111",
+                            "course_name": "Pakistan Studies",
+                            "credit_hours": "3",
+                            "teacher": "Rabia Shafaat (Hybrid HUM111)",
+                            "section_title": "Quizzes",
+                            "title": "Quiz2",
+                            "marks": 13.0,
+                            "total_marks": 15.0,
+                            "datetime": "12-04-2023"
+                        },
+                        {
+                            "course_id": "HUM111",
+                            "course_name": "Pakistan Studies",
+                            "credit_hours": "3",
+                            "teacher": "Rabia Shafaat (Hybrid HUM111)",
+                            "section_title": "Quizzes",
+                            "title": "Quiz3",
+                            "marks": 15.0,
+                            "total_marks": 15.0,
+                            "datetime": "31-05-2023"
+                        },
+                        {
+                            "course_id": "HUM111",
+                            "course_name": "Pakistan Studies",
+                            "credit_hours": "3",
+                            "teacher": "Rabia Shafaat (Hybrid HUM111)",
+                            "section_title": "Quizzes",
+                            "title": "Quiz4",
+                            "marks": 15.0,
+                            "total_marks": 15.0,
+                            "datetime": "06-06-2023"
+                        }
+                    ]
+                }
+            },
+            "attendance": {
+                "attendanceData": [],
+                "overview": {
+                    "total": 0,
+                    "present": 0,
+                    "absent": 0
+                }
+            },
+            "overview": {
+                "totalMarks": 225.0,
+                "marks": 199.0,
+                "percentage": 88.44
+            }
+        },
+        "PHY121": {
+            "courseScore": {
+                "Assignments": {
+                    "totalMarks": 40.0,
+                    "marks": 33.0,
+                    "percentage": 82.5,
+                    "data": [
+                        {
+                            "course_id": "PHY121",
+                            "course_name": "Applied Physics for Engineers",
+                            "credit_hours": "4",
+                            "teacher": "Kashif Jatoi",
+                            "section_title": "Assignments",
+                            "title": "Assign1",
+                            "marks": 8.0,
+                            "total_marks": 10.0,
+                            "datetime": "24-03-2023"
+                        },
+                        {
+                            "course_id": "PHY121",
+                            "course_name": "Applied Physics for Engineers",
+                            "credit_hours": "4",
+                            "teacher": "Kashif Jatoi",
+                            "section_title": "Assignments",
+                            "title": "Assign2",
+                            "marks": 8.0,
+                            "total_marks": 10.0,
+                            "datetime": "13-04-2023"
+                        },
+                        {
+                            "course_id": "PHY121",
+                            "course_name": "Applied Physics for Engineers",
+                            "credit_hours": "4",
+                            "teacher": "Kashif Jatoi",
+                            "section_title": "Assignments",
+                            "title": "Assign3",
+                            "marks": 9.0,
+                            "total_marks": 10.0,
+                            "datetime": "09-06-2023"
+                        },
+                        {
+                            "course_id": "PHY121",
+                            "course_name": "Applied Physics for Engineers",
+                            "credit_hours": "4",
+                            "teacher": "Kashif Jatoi",
+                            "section_title": "Assignments",
+                            "title": "Assign4",
+                            "marks": 8.0,
+                            "total_marks": 10.0,
+                            "datetime": "09-06-2023"
+                        }
+                    ]
+                },
+                "Final": {
+                    "totalMarks": 50.0,
+                    "marks": 48.0,
+                    "percentage": 96.0,
+                    "data": [
+                        {
+                            "course_id": "PHY121",
+                            "course_name": "Applied Physics for Engineers",
+                            "credit_hours": "4",
+                            "teacher": "Kashif Jatoi",
+                            "section_title": "Final",
+                            "title": "Final",
+                            "marks": 48.0,
+                            "total_marks": 50.0,
+                            "datetime": "01-07-2023"
+                        }
+                    ]
+                },
+                "Lab Assignments": {
+                    "totalMarks": 130.0,
+                    "marks": 120.0,
+                    "percentage": 92.31,
+                    "data": [
+                        {
+                            "course_id": "PHY121",
+                            "course_name": "Applied Physics for Engineers",
+                            "credit_hours": "4",
+                            "teacher": "Kashif Jatoi",
+                            "section_title": "Lab Assignments",
+                            "title": "LabAssign1",
+                            "marks": 8.0,
+                            "total_marks": 10.0,
+                            "datetime": "24-03-2023"
+                        },
+                        {
+                            "course_id": "PHY121",
+                            "course_name": "Applied Physics for Engineers",
+                            "credit_hours": "4",
+                            "teacher": "Kashif Jatoi",
+                            "section_title": "Lab Assignments",
+                            "title": "LabAssign2",
+                            "marks": 8.0,
+                            "total_marks": 10.0,
+                            "datetime": "13-04-2023"
+                        },
+                        {
+                            "course_id": "PHY121",
+                            "course_name": "Applied Physics for Engineers",
+                            "credit_hours": "4",
+                            "teacher": "Kashif Jatoi",
+                            "section_title": "Lab Assignments",
+                            "title": "LabAssign3",
+                            "marks": 95.0,
+                            "total_marks": 100.0,
+                            "datetime": "09-06-2023"
+                        },
+                        {
+                            "course_id": "PHY121",
+                            "course_name": "Applied Physics for Engineers",
+                            "credit_hours": "4",
+                            "teacher": "Kashif Jatoi",
+                            "section_title": "Lab Assignments",
+                            "title": "LabAssign4",
+                            "marks": 9.0,
+                            "total_marks": 10.0,
+                            "datetime": "09-06-2023"
+                        }
+                    ]
+                },
+                "Lab Midterm Marks": {
+                    "totalMarks": 30.0,
+                    "marks": 30.0,
+                    "percentage": 100.0,
+                    "data": [
+                        {
+                            "course_id": "PHY121",
+                            "course_name": "Applied Physics for Engineers",
+                            "credit_hours": "4",
+                            "teacher": "Kashif Jatoi",
+                            "section_title": "Lab Midterm Marks",
+                            "title": "Midtermlab",
+                            "marks": 30.0,
+                            "total_marks": 30.0,
+                            "datetime": "16-05-2023"
+                        }
+                    ]
+                },
+                "Midterm Marks": {
+                    "totalMarks": 30.0,
+                    "marks": 28.5,
+                    "percentage": 95.0,
+                    "data": [
+                        {
+                            "course_id": "PHY121",
+                            "course_name": "Applied Physics for Engineers",
+                            "credit_hours": "4",
+                            "teacher": "Kashif Jatoi",
+                            "section_title": "Midterm Marks",
+                            "title": "MidTermMarks",
+                            "marks": 28.5,
+                            "total_marks": 30.0,
+                            "datetime": "16-05-2023"
+                        }
+                    ]
+                },
+                "Quizzes": {
+                    "totalMarks": 40.0,
+                    "marks": 31.0,
+                    "percentage": 77.5,
+                    "data": [
+                        {
+                            "course_id": "PHY121",
+                            "course_name": "Applied Physics for Engineers",
+                            "credit_hours": "4",
+                            "teacher": "Kashif Jatoi",
+                            "section_title": "Quizzes",
+                            "title": "Quiz1",
+                            "marks": 10.0,
+                            "total_marks": 10.0,
+                            "datetime": "24-03-2023"
+                        },
+                        {
+                            "course_id": "PHY121",
+                            "course_name": "Applied Physics for Engineers",
+                            "credit_hours": "4",
+                            "teacher": "Kashif Jatoi",
+                            "section_title": "Quizzes",
+                            "title": "Quiz2",
+                            "marks": 10.0,
+                            "total_marks": 10.0,
+                            "datetime": "13-04-2023"
+                        },
+                        {
+                            "course_id": "PHY121",
+                            "course_name": "Applied Physics for Engineers",
+                            "credit_hours": "4",
+                            "teacher": "Kashif Jatoi",
+                            "section_title": "Quizzes",
+                            "title": "Quiz3",
+                            "marks": 1.0,
+                            "total_marks": 10.0,
+                            "datetime": "12-06-2023"
+                        },
+                        {
+                            "course_id": "PHY121",
+                            "course_name": "Applied Physics for Engineers",
+                            "credit_hours": "4",
+                            "teacher": "Kashif Jatoi",
+                            "section_title": "Quizzes",
+                            "title": "Quiz4",
+                            "marks": 10.0,
+                            "total_marks": 10.0,
+                            "datetime": "12-06-2023"
+                        }
+                    ]
+                }
+            },
+            "attendance": {
+                "attendanceData": [
+                    {
+                        "attendanceType": "class",
+                        "attendance": [
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Intro",
+                                "attended": true,
+                                "start_time": "20-02-2023 03:00 PM",
+                                "end_time": "20-02-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Intro to apfe",
+                                "attended": true,
+                                "start_time": "21-02-2023 01:30 PM",
+                                "end_time": "21-02-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Theoratical physics and applied physics and its diffrences.",
+                                "attended": false,
+                                "start_time": "27-02-2023 03:00 PM",
+                                "end_time": "27-02-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "SI systems, review of exponents and numericcals",
+                                "attended": true,
+                                "start_time": "28-02-2023 01:30 PM",
+                                "end_time": "28-02-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Scientific and engineering notations plus conversions",
+                                "attended": true,
+                                "start_time": "06-03-2023 03:00 PM",
+                                "end_time": "06-03-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Conversions practice",
+                                "attended": true,
+                                "start_time": "07-03-2023 01:30 PM",
+                                "end_time": "07-03-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Electric charge, colombs law, examples  and numericals",
+                                "attended": true,
+                                "start_time": "13-03-2023 03:00 PM",
+                                "end_time": "13-03-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Pratice + Quiz",
+                                "attended": true,
+                                "start_time": "14-03-2023 01:30 PM",
+                                "end_time": "14-03-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Electric charge, colombs law, numericals",
+                                "attended": true,
+                                "start_time": "20-03-2023 03:00 PM",
+                                "end_time": "20-03-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Electric current and its types and resistors",
+                                "attended": true,
+                                "start_time": "21-03-2023 01:30 PM",
+                                "end_time": "21-03-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Electric fields and calculations",
+                                "attended": true,
+                                "start_time": "27-03-2023 12:00 PM",
+                                "end_time": "27-03-2023 01:30 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Volts vs electric firleld formula and calculations",
+                                "attended": true,
+                                "start_time": "28-03-2023 11:00 AM",
+                                "end_time": "28-03-2023 12:30 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "",
+                                "attended": true,
+                                "start_time": "03-04-2023 12:00 PM",
+                                "end_time": "03-04-2023 01:30 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Work energy power and numericals",
+                                "attended": true,
+                                "start_time": "04-04-2023 11:00 AM",
+                                "end_time": "04-04-2023 12:30 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Power measurements plus numericals",
+                                "attended": true,
+                                "start_time": "10-04-2023 12:00 PM",
+                                "end_time": "10-04-2023 01:30 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Practice, plus quiz",
+                                "attended": true,
+                                "start_time": "11-04-2023 12:00 PM",
+                                "end_time": "11-04-2023 01:30 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Resistor code conductance numericals",
+                                "attended": true,
+                                "start_time": "14-04-2023 10:00 AM",
+                                "end_time": "14-04-2023 11:30 AM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Efficiency",
+                                "attended": true,
+                                "start_time": "28-04-2023 11:30 AM",
+                                "end_time": "28-04-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "mid",
+                                "attended": true,
+                                "start_time": "04-05-2023 10:00 AM",
+                                "end_time": "04-05-2023 11:30 AM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Numericals",
+                                "attended": true,
+                                "start_time": "16-05-2023 01:30 PM",
+                                "end_time": "16-05-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Series circuits plus numericals",
+                                "attended": true,
+                                "start_time": "22-05-2023 03:00 PM",
+                                "end_time": "22-05-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Kvl",
+                                "attended": true,
+                                "start_time": "23-05-2023 01:30 PM",
+                                "end_time": "23-05-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Open circuit plus series connected sources",
+                                "attended": true,
+                                "start_time": "29-05-2023 03:00 PM",
+                                "end_time": "29-05-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "quiz",
+                                "attended": true,
+                                "start_time": "30-05-2023 01:30 PM",
+                                "end_time": "30-05-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Vdr",
+                                "attended": true,
+                                "start_time": "03-06-2023 11:00 AM",
+                                "end_time": "03-06-2023 12:30 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Numericals",
+                                "attended": true,
+                                "start_time": "05-06-2023 03:00 PM",
+                                "end_time": "05-06-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "practic plus quiz",
+                                "attended": true,
+                                "start_time": "06-06-2023 01:30 PM",
+                                "end_time": "06-06-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "Parallel circuits",
+                                "attended": true,
+                                "start_time": "10-06-2023 01:30 PM",
+                                "end_time": "10-06-2023 03:00 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "kcl+cdr+short circuits",
+                                "attended": true,
+                                "start_time": "12-06-2023 03:00 PM",
+                                "end_time": "12-06-2023 04:30 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "class",
+                                "topic": "series parallel combo circuits",
+                                "attended": true,
+                                "start_time": "13-06-2023 01:30 PM",
+                                "end_time": "13-06-2023 03:00 PM"
+                            }
+                        ],
+                        "total": 30,
+                        "present": 29,
+                        "absent": 1
+                    },
+                    {
+                        "attendanceType": "lab",
+                        "attendance": [
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "lab",
+                                "topic": "introduction to general la equipment",
+                                "attended": true,
+                                "start_time": "23-02-2023 10:00 AM",
+                                "end_time": "23-02-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "lab",
+                                "topic": "to measure the diameter of wire with a screw gauge",
+                                "attended": true,
+                                "start_time": "02-03-2023 10:00 AM",
+                                "end_time": "02-03-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "lab",
+                                "topic": "Resistance calculation through color code",
+                                "attended": true,
+                                "start_time": "09-03-2023 10:00 AM",
+                                "end_time": "09-03-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "lab",
+                                "topic": "to find the resisitane of volt meter by drawing graph between R and 1by v",
+                                "attended": true,
+                                "start_time": "16-03-2023 10:00 AM",
+                                "end_time": "16-03-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "lab",
+                                "topic": "verification of ohms law",
+                                "attended": true,
+                                "start_time": "30-03-2023 09:00 AM",
+                                "end_time": "30-03-2023 11:00 AM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "lab",
+                                "topic": "equivalent resistance of series and parallels",
+                                "attended": true,
+                                "start_time": "06-04-2023 09:00 AM",
+                                "end_time": "06-04-2023 11:00 AM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "lab",
+                                "topic": "view point of series an parallel",
+                                "attended": true,
+                                "start_time": "13-04-2023 09:00 AM",
+                                "end_time": "13-04-2023 11:00 AM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "lab",
+                                "topic": "",
+                                "attended": true,
+                                "start_time": "20-04-2023 09:00 AM",
+                                "end_time": "20-04-2023 11:00 AM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "lab",
+                                "topic": "lab mid",
+                                "attended": true,
+                                "start_time": "04-05-2023 10:00 AM",
+                                "end_time": "04-05-2023 01:00 PM"
+                            },
+                            {
+                                "course_id": "PHY121",
+                                "attendance_type": "lab",
+                                "topic": "to find the resistance of galvanometer by half depletion method",
+                                "attended": true,
+                                "start_time": "25-05-2023 11:30 AM",
+                                "end_time": "25-05-2023 01:00 PM"
+                            }
+                        ],
+                        "total": 10,
+                        "present": 10,
+                        "absent": 0
+                    }
+                ],
+                "overview": {
+                    "total": 40,
+                    "present": 39,
+                    "absent": 1
+                }
+            },
+            "overview": {
+                "totalMarks": 320.0,
+                "marks": 290.5,
+                "percentage": 90.78
+            }
+        }
+    }
+}

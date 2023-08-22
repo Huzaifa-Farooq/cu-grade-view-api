@@ -63,6 +63,8 @@ class ComsatsEduPkSpider(scrapy.Spider):
         )
 
     def get_course_request(self):
+        # the site works by setting course first and then navigating to other pages. 
+        # Sending requests for all courses at once will result in wrong data
         if self.courses:
             course = self.courses.pop(0)
             course_id = course.css("td:nth-child(1)::text").get().strip()

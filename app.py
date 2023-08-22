@@ -52,16 +52,26 @@ def get_task_status(task_id):
     return jsonify(response)
 
 
+@app.route('/demo', methods=['GET'])
+def get_demo_data():
+    with open("demo.json", "r") as f:
+        data = json.load(f)
+
+    return jsonify({
+        "status": Task.SUCCESS,
+        "data": data,
+        "message": "Task completed successfully",
+        "taskCompleted": True
+    }), 200
+
+
 @app.route("/taskdata/<task_id>", methods=["GET"])
 def get_task_data(task_id):
     task = db.get_task(task_id)
-    if not task:
-        return jsonify({"error": "Task not found"}), 404
-
     # getting key from request
     key = request.args.get("key", type=str)
-    if not key:
-        return jsonify({"error": "Key not found"}), 404
+    if not task or not key:
+        return jsonify({"error": "Task or Key not found"}), 404
     
     # checking if key is valid
     if key != task.key:
@@ -91,6 +101,9 @@ def get_task_data(task_id):
         }), 200
 
     response = prepare_response(task)
+
+    with open("demo.json", "w") as f:
+        data = json.dump(response, f, indent=4)
 
     return jsonify({
         "status": task.status,
@@ -159,6 +172,12 @@ def prepare_response(task):
             })
 
         response["coursesData"][course_id]["attendance"] = attendance_obj
+
+        response["coursesData"][course_id]['overview'] = {
+            "totalMarks": course_df["total_marks"].sum(),
+            "marks": course_df["marks"].sum(),
+            "percentage": round(((course_df["marks"].sum() / course_df["total_marks"].sum()) * 100), 2)
+        }
 
         for section_title, section_df in course_df.groupby('section_title'):
             total_marks = section_df["total_marks"].sum()
