@@ -102,9 +102,6 @@ def get_task_data(task_id):
 
     response = prepare_response(task)
 
-    with open("demo.json", "w") as f:
-        data = json.dump(response, f, indent=4)
-
     return jsonify({
         "status": task.status,
         "data": response,
